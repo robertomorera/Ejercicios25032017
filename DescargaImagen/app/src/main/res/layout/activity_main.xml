@@ -9,8 +9,15 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="450dp"
-        android:id="@+id/miImagen"/>
+        android:layout_height="200dp"
+        android:id="@+id/miImagen0"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/miImagen1"
+        android:layout_marginTop="30dp"/>
+
 
     <Button
         android:layout_width="match_parent"
@@ -19,6 +26,7 @@
         android:text="DESCARGAR"
         android:onClick="descargaImagen"
         android:gravity="center"
-        android:textSize="18sp"/>
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
 
 </LinearLayout>
